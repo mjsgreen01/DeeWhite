@@ -55,6 +55,10 @@ a{
 
 
 
+
+
+
+
 body{
 	background-color: black;
 }
@@ -170,9 +174,24 @@ footer{
 
 
 
+/*music Page*/
 
-
-
+#musicMusic{
+	width: 775px;
+}
+.musicSubSec{
+	margin-top: 0px;
+	display: inline-block;
+	float: left;
+}
+.musicSubSec header{
+	height: 50px;
+	background-color: white;
+}
+.musicContainer{
+	display: inline-block;
+	margin-left: 61px;
+}
 
 
 
