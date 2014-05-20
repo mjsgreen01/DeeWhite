@@ -179,7 +179,15 @@ h2 span{
 	font-family: 'Sanchez';
 
 }
-
+.buyTix{
+	background-color: white;
+	height: 20px;
+	width: 56%;
+	display: inline-block;
+	margin-top: 5px;
+	color: black;
+	font-family: 'novecento_sans_widedemibold', arial;
+}
 
 
 
@@ -255,4 +263,17 @@ footer{
 .tourSubSec .tourDiv .tourDate .month{
 	font-size: 18px;
 }
+
+
+/*contact Page*/
+.bioInfo span{
+	font-size: 20px;
+}
+
+
+
+
+
+
+
 
