@@ -7,4 +7,10 @@ $(document).ready(function(){
          	$("#940").attr('src','homeImg1.jpg');
      	}
      );
+
+
+
+
+
+
 });

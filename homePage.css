@@ -150,9 +150,35 @@ h2 span{
 .soundCPlayer{
 	margin-top: 20px;
 }
+.tourDiv{
+	clear: both;
+	margin-top: 20px;
+	height: 120px;
+}
+.tourDate{
+	display: inline-block;
+	float: left;
+	width: 60px;
+	height: 60px;
+	background-color: white;
+}
+.tourInfo{
+	display: inline-block;
+	color: white;
+	width: 230px;
+	font-family: 'Sanchez';
+	line-height: 21px;
+	font-size: 15.4px;
+}
+.day{
+	font-size: 35px;
+	margin-top: 2px;
+	font-family: 'Sanchez';
+}
+.month{
+	font-family: 'Sanchez';
 
-
-
+}
 
 
 
