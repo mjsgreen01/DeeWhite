@@ -222,3 +222,34 @@ footer{
 
 
 
+
+/*bio Page*/
+.bioInfo{
+	color: white;
+	font-family: 'Sanchez';
+	line-height: 21px;
+	font-size: 15.4px;
+	margin-top: 20px;
+}
+
+
+
+/*tour Page*/
+
+
+
+.tourSubSec .tourDiv .tourInfo{
+	width: 80%;
+	display: inline-block;
+	text-align: left;
+}
+.tourSubSec .tourDiv .tourDate{
+	width: 80px;
+	height: 80px;
+}
+.tourSubSec .tourDiv .tourDate .day{
+	font-size: 45px;
+	margin-top: 5px;
+}
+
+
