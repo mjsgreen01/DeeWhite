@@ -63,6 +63,7 @@ body{
 	background-color: black;
 }
 .homeHead{
+/*	opacity: 0;*/
 	width: 100%;
 	background-color: black;
 }
@@ -92,7 +93,7 @@ h1 span{
 #homeImg{
 	width: 500px;
 	display: inline-block;
-
+	opacity: 0;
 }
 #homeImg img{
 	width: 100%;
@@ -117,6 +118,13 @@ li{
 }
 li.lastItem{
 	margin-bottom: 0px;
+}
+#homeli, #musicli, #bioli, #tourli, #contactli{
+		margin-left: -530px;
+}
+.filler{
+	width: 158px;
+	height: 1px;
 }
 #homeMusic{
 	width: 659px;
@@ -255,6 +263,7 @@ footer{
 	width: 69px;
 	height: 69px;
 	margin-top: 6px;
+	margin-bottom: 55px;
 }
 .tourSubSec .tourDiv .tourDate .day{
 	font-size: 40px;
@@ -263,7 +272,12 @@ footer{
 .tourSubSec .tourDiv .tourDate .month{
 	font-size: 18px;
 }
-
+.tourSubSec .tourDiv .buyTix{
+	width: 36%;
+}
+.tourSubSec .tourDiv .buyTix p{
+	margin-top: 2.4px;
+}
 
 /*contact Page*/
 .bioInfo span{
