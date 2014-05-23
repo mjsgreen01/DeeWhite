@@ -197,13 +197,22 @@ h2 span{
 	font-family: 'novecento_sans_widedemibold', arial;
 }
 .navbar-left{
-	width: 50px;
-	height: 50px;
-	background-color: white;
+	width: 30px;
+	height: 25px;
+	background-color: transparent;
 	position: fixed;
 	z-index: 2;
+	margin-top: 25px;
+	margin-left: 20px;
+	display: none;
 }
-
+.navicon-line {
+	width: 25px;
+	height: 3px;
+	border-radius: 1px;
+	margin-bottom: 5px;
+	background-color: #fff;
+}
 
 
 
@@ -364,6 +373,9 @@ footer{
 	}
 	.musicContainer{
 		margin-left: 0px;
+	}
+	.navbar-left{
+		display: block;
 	}
 }
 @media screen and (max-width: 660px){
