@@ -197,23 +197,29 @@ h2 span{
 	font-family: 'novecento_sans_widedemibold', arial;
 }
 .navbar-left{
-	width: 30px;
+	width: 40px;
 	height: 25px;
 	background-color: transparent;
 	position: fixed;
 	z-index: 2;
-	margin-top: 25px;
-	margin-left: 20px;
+	margin-top: 29px;
+	margin-left: 35px;
 	display: none;
 }
 .navicon-line {
-	width: 25px;
+	width: 30px;
 	height: 3px;
 	border-radius: 1px;
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 	background-color: #fff;
 }
-
+.slidebarli{
+	font-size: 16px;
+	letter-spacing: 11px;
+	margin-bottom: 55px;
+	margin-top: 55px;
+	margin-left: 30px;
+}
 
 
 
@@ -396,6 +402,17 @@ footer{
 	}
 	#musicMusic{
 		width: 464px;
+	}
+	.navbar-left{
+		margin-left: 10px;
+		margin-top: 25px;
+	}
+	.navicon-line {
+		width: 25px;
+		height: 3px;
+		border-radius: 1px;
+		margin-bottom: 5px;
+		background-color: #fff;
 	}
 }
 
