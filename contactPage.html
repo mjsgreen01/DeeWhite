@@ -3,6 +3,8 @@
 
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1">
+		<link rel="stylesheet" href="slidebars.css">
 		<link type="text/css" rel="stylesheet" href="homePage.css"/>
 		<link type="text/css" rel="stylesheet" href="NovecentoBold.css"/>
 		<link type="text/css" rel="stylesheet" href="NovecentoDemiBold.css"/>
@@ -10,6 +12,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="slidebars.js"></script>
 		<script src="homePage.js"></script>
 
 
@@ -17,7 +20,12 @@
 		<title>Dee White</title>
 	</head>
 	<body>	
-			
+		<div class="sb-toggle-left navbar-left sb-slide">
+			<div class="navicon-line"></div>
+			<div class="navicon-line"></div>
+			<div class="navicon-line"></div>
+		</div>	
+		<div id="sb-site">	
 		<div id="homeSec1">
 			<div class="homeHead">
 				<header>
@@ -38,7 +46,7 @@
 					</nav>
 				</div>
 				<div class="musicContainer">
-					<div id="musicMusic" class="musicSubSec">
+					<div id="musicMusic" class="musicSubSec contactSubSec">
 						<header><h2>CONTAC<span>T</span></h2></header>
 						<div>
 							<p class="bioInfo">
@@ -64,6 +72,28 @@
 
 			</footer>
 		</div>
+		</div>
+		<div class="sb-slidebar sb-left">
+					<nav>
+						<ul>
+							<a href="homePage.html"><li class="slidebarli" >HOME</li></a>
+							<a href="musicPage.html"><li class="slidebarli" >MUSIC</li></a>
+							<a href="bioPage.html"><li class="slidebarli" >BIO</li></a>
+							<a href="tourPage.html"><li class="slidebarli" >TOUR</li></a>
+							<a href="contactPage.html"><li class="slidebarli lastItem">CONTACT</li></a>
+							<div class="filler"></div>
+						</ul>
+					</nav>
+
+		</div>
+		<script>
+		  (function($) {
+		    $(document).ready(function() {
+		      $.slidebars(
+		      	);
+		    });
+		  }) (jQuery);
+		</script>
 
 
 

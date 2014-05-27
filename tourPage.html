@@ -3,6 +3,8 @@
 
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1">
+		<link rel="stylesheet" href="slidebars.css">
 		<link type="text/css" rel="stylesheet" href="homePage.css"/>
 		<link type="text/css" rel="stylesheet" href="NovecentoBold.css"/>
 		<link type="text/css" rel="stylesheet" href="NovecentoDemiBold.css"/>
@@ -10,6 +12,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="slidebars.js"></script>
 		<script src="homePage.js"></script>
 
 
@@ -17,7 +20,12 @@
 		<title>Dee White</title>
 	</head>
 	<body>	
-			
+		<div class="sb-toggle-left navbar-left sb-slide">
+			<div class="navicon-line"></div>
+			<div class="navicon-line"></div>
+			<div class="navicon-line"></div>
+		</div>	
+		<div id="sb-site">	
 		<div id="homeSec1">
 			<div class="homeHead">
 				<header>
@@ -45,32 +53,40 @@
 								<div class="day">25</div>
 								<div class="month">April</div>
 							</div>
-							<div class="tourInfo">Phasellus adipiscing consequat hendrerit. Aenean eget risus sed tellus vulputate lacinia quis nec ligula.Phasellus adipiscing consequat hendrerit. Aenean eget risus sed tellus vulputate lacinia quis nec ligula.Phasellus adipiscing consequat hendrerit. Aenean eget risus sed tellus vulputate lacinia quis nec ligula.</div>
-							<div class="buyTix"><p>BUY TICKETS</p></div>
+							<div class="tourInfoContainer">
+								<div class="tourInfo" id="firstInfo">Phasellus adipiscing consequat hendrerit. Aenean eget risus sed tellus vulputate lacinia quis nec ligula.Phasellus adipiscing consequat hendrerit. Aenean eget risus sed tellus vulputate lacinia quis nec ligula.Phasellus adipiscing consequat hendrerit. Aenean eget risus sed tellus vulputate lacinia quis nec ligula.</div>
+								<div class="buyTix" id="firstBuyTix"><p id="firstp">BUY TICKETS</p></div>
+							</div>
 						</div>
 						<div class="tourDiv">
 							<div class="tourDate">
 								<div class="day">25</div>
 								<div class="month">May</div>
 							</div>
-							<div class="tourInfo">Etiam semper magna commodo odio rutrum sodales. Phasellus gravida vulputate tortor, </div>
-							<div class="buyTix"><p>BUY TICKETS</p></div>
+							<div class="tourInfoContainer">
+								<div class="tourInfo">Etiam semper magna commodo odio rutrum sodales. Phasellus gravida vulputate tortor, </div>
+								<div class="buyTix"><p>BUY TICKETS</p></div>
+							</div>
 						</div>
 						<div class="tourDiv">
 							<div class="tourDate">
 								<div class="day">25</div>
 								<div class="month">May</div>
 							</div>
-							<div class="tourInfo">Praesent lacus nulla, posuere sit amet condimentum at, lobortis et ante. Sed quis eros ut est commodo vulputate.</div>
-							<div class="buyTix"><p>BUY TICKETS</p></div>
+							<div class="tourInfoContainer">
+								<div class="tourInfo">Praesent lacus nulla, posuere sit amet condimentum at, lobortis et ante. Sed quis eros ut est commodo vulputate.</div>
+								<div class="buyTix"><p>BUY TICKETS</p></div>
+							</div>
 						</div>
 						<div class="tourDiv">
 							<div class="tourDate">
 								<div class="day">25</div>
 								<div class="month">May</div>
 							</div>
-							<div class="tourInfo">Nulla eu velit ac metus sollicitudin varius in vitae enim. Sed ultricies mauris vitae nunc tincidunt</div>
-							<div class="buyTix"><p>BUY TICKETS</p></div>
+							<div class="tourInfoContainer">
+								<div class="tourInfo">Nulla eu velit ac metus sollicitudin varius in vitae enim. Sed ultricies mauris vitae nunc tincidunt</div>
+								<div class="buyTix"><p>BUY TICKETS</p></div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -82,6 +98,28 @@
 
 			</footer>
 		</div>
+		</div>
+		<div class="sb-slidebar sb-left">
+					<nav>
+						<ul>
+							<a href="homePage.html"><li class="slidebarli" >HOME</li></a>
+							<a href="musicPage.html"><li class="slidebarli" >MUSIC</li></a>
+							<a href="bioPage.html"><li class="slidebarli" >BIO</li></a>
+							<a href="tourPage.html"><li class="slidebarli" >TOUR</li></a>
+							<a href="contactPage.html"><li class="slidebarli lastItem">CONTACT</li></a>
+							<div class="filler"></div>
+						</ul>
+					</nav>
+
+		</div>
+		<script>
+		  (function($) {
+		    $(document).ready(function() {
+		      $.slidebars(
+		      	);
+		    });
+		  }) (jQuery);
+		</script>
 
 
 

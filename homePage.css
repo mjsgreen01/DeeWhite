@@ -202,8 +202,8 @@ h2 span{
 	background-color: transparent;
 	position: fixed;
 	z-index: 2;
-	margin-top: 29px;
-	margin-left: 35px;
+	padding-top: 29px;
+	padding-left: 35px;
 	display: none;
 }
 .navicon-line {
@@ -279,11 +279,8 @@ footer{
 /*tour Page*/
 
 
-
-.tourSubSec .tourDiv .tourInfo{
-	width: 80%;
-	display: inline-block;
-	text-align: left;
+.tourSubSec .tourDiv{
+	height: auto;
 }
 .tourSubSec .tourDiv .tourDate{
 	width: 69px;
@@ -298,12 +295,28 @@ footer{
 .tourSubSec .tourDiv .tourDate .month{
 	font-size: 18px;
 }
-.tourSubSec .tourDiv .buyTix{
-	width: 36%;
+.tourInfoContainer{
+	display: inline-block;
+	width: 79.9568965%;
 }
-.tourSubSec .tourDiv .buyTix p{
-	margin-top: 2.4px;
+.tourSubSec .tourDiv .tourInfoContainer .tourInfo{
+	width: 100%;
+	display: inline-block;
+	text-align: left;
 }
+.tourSubSec .tourDiv .tourInfoContainer .buyTix{
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 45.0134771%;
+}
+.tourSubSec .tourDiv .tourInfoContainer .buyTix p{
+	line-height: 20.9px;
+}
+
+
+
+
 
 /*contact Page*/
 .bioInfo span{
@@ -404,8 +417,8 @@ footer{
 		width: 464px;
 	}
 	.navbar-left{
-		margin-left: 10px;
-		margin-top: 25px;
+		padding-left: 10px;
+		padding-top: 25px;
 	}
 	.navicon-line {
 		width: 25px;
@@ -435,6 +448,12 @@ footer{
 	#musicMusic{
 		width: 380px;
 	}
+	.tourInfoContainer{
+		width: 65%;
+	}
+	.tourSubSec .tourDiv .tourInfoContainer .buyTix{
+		width: 55.465587%;
+	}
 }
 @media screen and (max-width: 440px){
 	#homeSec1{
@@ -457,7 +476,30 @@ footer{
 		width: 346px;
 	}
 }
-
+@media screen and (max-width: 390px){
+	#homeSec1{
+		width: 320px;
+	}
+	.homeHead header h1{
+		font-size: 72px;
+		letter-spacing: 9px;
+		line-height: 69px;
+	}
+	#homeImg{
+		width: 268px;
+	}
+	.homeHead div{
+		height: 20px;
+		width: 272pxc;
+		margin-top:-15px;
+	}
+	#musicMusic{
+		width: 268px;
+	}
+	.contactSubSec header h2{
+		letter-spacing: 12px;
+	}
+}
 
 
 
