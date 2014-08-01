@@ -260,6 +260,13 @@ footer{
 	display: inline-block;
 	margin-left: 61px;
 }
+.comingSoon{
+	color: white;
+	
+	font-family: 'Sanchez';
+	line-height: 181px;
+	font-size: 15.4px;
+}
 
 
 
@@ -328,7 +335,13 @@ footer{
 
 
 
-
+.comingSoon{
+	color: white;
+	
+	font-family: 'Sanchez';
+	line-height: 181px;
+	font-size: 15.4px;
+}
 
 
 
